@@ -179,7 +179,7 @@ function WTFAILanding() {
     }, 3000);
     const factInterval = setInterval(() => {
       setFactIndex((i) => (i + 1) % funFacts.length);
-    }, 12000);
+    }, 9000);
     return () => {
       clearInterval(interval);
       clearInterval(factInterval);
